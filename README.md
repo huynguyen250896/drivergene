@@ -27,8 +27,8 @@ Here, we use the METABRIC breast cancer (BRCA) dataset as an example to demonstr
 **Step 2:** Enrichment analysis using the tool [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost) </br> 
 **Step 3:** Individual gene-clincial feature association analysis
 - Pre-processing gene expression data & clinical data: *"1.Clinical-preprocess.R"*
-- Association between individual driver genes and survival rate: *"2.Clinical-SA.R"*
-- Identify which driver genes are significantly correlated with other clinical features : *"3.Clinical-corr.R"*
+- Association between individual driver genes and survival rates: *"2.Clinical-SA.R"*
+- Identify which driver gene is significantly correlated with which clinical feature : *"3.Clinical-corr.R"*
 
 **Step 4:** Co-expressed module-clinical feature association analysis using WGCNA
 - Weighted co-expression driver gene network construction: *"1.WGCA-STEPbySTEP.R"*
